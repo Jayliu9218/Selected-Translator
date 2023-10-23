@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-
-import pyperclip
+
 # This code shows an example of text translation from English to Simplified-Chinese.
 # This code runs on Python 2.7.x and Python 3.x.
 # You may install `requests` to run this code: pip install requests
@@ -14,8 +14,8 @@ import random
 import json
 from hashlib import md5
 
-def trans_main(query):
 
+def trans_main(query):
     # Set your own appid/appkey.
     appid = '20231022001855764'
     appkey = 'PU6hcDIpCsKaTY86GABN'
@@ -38,7 +38,6 @@ def trans_main(query):
 
     salt = random.randint(32768, 65536)
     sign = make_md5(appid + query + str(salt) + appkey)
-
 
     # Build request
     headers = {'Content-Type': 'application/x-www-form-urlencoded'}
