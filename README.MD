@@ -6,7 +6,9 @@
 2. 运行main.exe；
 3. 选择要翻译的单词或句段； 
 4. 将鼠标悬停至合适位置，键盘按下“ctrl + C”； 
-5. 查阅翻译完毕，关闭翻译窗口
+5. 查阅翻译完毕，关闭翻译窗口，等待下一次翻译活动；
+
+
 
 # Selected_Translator
 
@@ -16,5 +18,4 @@
 2. Selected the words or sentences you want to translate; 
 3. Translating bar pops up near the area selected 
 4. Translating bar disappear after mouse clicking at other area or timing out;
-
-5.Going on 2.
+5. Going on 2.
