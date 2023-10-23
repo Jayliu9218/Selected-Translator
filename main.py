@@ -51,7 +51,7 @@ def trans_disp(result):
     size_lines = 0
     size_chars = 0
     for trans in trans_result:
-        print("dst :", str(trans["dst"]))
+        # print("dst :", str(trans["dst"]))
         size_lines += 1
         size_chars += len(str(trans["dst"]))
 
